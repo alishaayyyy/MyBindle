@@ -1,13 +1,10 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "functions": {
-    "app/**/*": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  ]
 }
