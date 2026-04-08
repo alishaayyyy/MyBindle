@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',  // 👈 CHANGE THIS FROM '/' to './'
+   base: '/mybindle/',   // 👈 CHANGE THIS FROM '/' to './'
   build: {
     outDir: 'dist',
     assetsDir: 'assets',  // 👈 Add this
